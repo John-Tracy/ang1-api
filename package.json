@@ -1,0 +1,24 @@
+{
+  "name": "ang1-api",
+  "version": "1.0.0",
+  "description": "Backend API for my \"ang1\" frontend application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Tracy/ang1-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John-Tracy/ang1-api/issues"
+  },
+  "homepage": "https://github.com/John-Tracy/ang1-api#readme"
+}
