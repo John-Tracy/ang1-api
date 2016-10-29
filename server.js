@@ -22,10 +22,7 @@ app.use(function(req, res, next) {
 
 
 
-app.get('/api', function(req, res){
-	console.log('server ping');
-	res.json({ res : 'You hit the API!'});
-});
+require('./app/get-routes/getAllBikes.js')(app);
 
 
 
