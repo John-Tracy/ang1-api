@@ -22,7 +22,7 @@ app.use(function(req, res, next) {
 
 
 
-require('./app/get-routes/getAllBikes.js')(app);
+require('./app/get-routes/getAllRiders.js')(app);
 
 
 
